@@ -1,0 +1,13 @@
+{
+    "java.project.sourcePaths": ["src"],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar"
+    ],
+    "chat.tools.terminal.autoApprove": {
+        "/^git status --short --branch && git remote -v && git rev-parse --show-toplevel$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}
